@@ -1,0 +1,39 @@
+<template name="login">
+
+    <!-- <div class="cover-page cover-image" style="background-image:url(../images/worldgreybg.jpg);"> -->
+
+    <div class="splash-screen cover-screen container-fullscreen no-bottom" style=" background-image:url(../images/worldgreybg.jpg);"> 
+        <div class="cover-page-content" >
+
+    <div class="pageapp-login">
+                <a href="#" class="pageapp-login-logo"></a>
+                <div class="spacer"></div>
+                <form>
+                <div class="cover-field">
+                    <i class="fa fa-user"></i>
+                    <input type="text" value="Username" required>
+                </div>                
+                <div class="cover-field full-bottom">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" value="passswordhere" required>
+                </div>
+              <!--   <a id="btnlogin" type="submit" class="pageapp-login-button button button-green"><i class="fa fa-arrow-right"></i>Login</a> -->
+
+                 <button id="btnlogin" class="pageapp-login-button button button-green"> <i class="fa fa-arrow-right"></i>Login</button>
+
+                </form>
+            <div class="decoration half-bottom"></div>
+            <a  id="facebook-login" class="pageapp-login-button button facebook-color"><i class="fa fa-facebook"></i>Login with Facebook</a>
+            <a id="google-login"  class="pageapp-login-button button google-color"><i class="fa fa-google"></i>Login with Google</a>
+                <!-- <a href="#" class="pageapp-login-button button twitter-color"><i class="fa fa-twitter"></i>Login with Twitter</a> -->
+            </div>
+            
+        </div>
+   <!--      <div class="overlay"></div> -->
+        <div class="cover-buttons">
+            <a class="cover-button-left" href="page-login.html"><i class="space-right fa fa-file-o"></i>Page Version</a>
+            <a class="cover-button-right" href="/register">Create account?<i class="space-left fa fa-code"></i></a>
+        </div>
+       <!--  </div> -->
+       </div>
+</template>

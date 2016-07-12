@@ -1,0 +1,12 @@
+{
+  "name": "PollBooth2",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "jquery": "^2.2.1",
+    "meteor-node-stubs": "~0.2.0",
+    "nanobar": "^0.4.2"
+  }
+}

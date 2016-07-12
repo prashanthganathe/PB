@@ -1,0 +1,35 @@
+<template name="register">
+<div class="splash-screen cover-screen container-fullscreen no-bottom" style=" background-image:url(../images/worldgreybg.jpg);"> 
+
+   <!--  <div class="cover-page cover-image" style="background-image:url(../images/worldgreybg.jpg);"> -->
+        <div class="cover-page-content"><!--add boxed-layout to this to change the style-->
+            
+            <div class="pageapp-login">
+                <a href="#" class="pageapp-login-logo"></a>
+                <div class="spacer"></div>
+                <div class="cover-field">
+                    <i class="fa fa-user"></i>
+                    <input type="text" id="fname" value="Username">
+                </div>                    
+                <div class="cover-field">
+                    <i class="fa fa-envelope-o"></i>
+                    <input type="text"  id="loginemail" value="Email">
+                </div>                
+                <div class="cover-field">
+                    <i class="fa fa-lock"></i>
+                    <input type="password"  id="loginpassword" value="passswordhere">
+                </div>                
+            
+          <!--       <a  type="submit" class="pageapp-login-button button button-green"><i class="fa fa-arrow-right"></i>Register</a> -->
+                  <button id="btnregister" class="pageapp-login-button button button-green"> <i class="fa fa-arrow-right"></i>Register</button>
+            </div>
+            
+        </div>
+        <!-- <div class="overlay"></div> -->
+        <div class="cover-buttons">
+            <a class="cover-button-left" href="page-signup.html"><i class="space-right fa fa-file-o"></i>Page Version</a>
+            <a class="cover-button-right" href="pageapp-login.html">Already Registered?<i class="space-left fa fa-code"></i></a>
+        </div>
+    </div>
+
+</template>
